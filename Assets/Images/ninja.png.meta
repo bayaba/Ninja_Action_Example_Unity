@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: f828c8374a1340446b0e0d14f8f98cab
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ninja_0
+    21300002: ninja_1
+    21300004: ninja_2
+    21300006: ninja_3
+    21300008: ninja_4
+    21300010: ninja_5
+    21300012: ninja_6
+    21300014: ninja_7
+    21300016: ninja_8
+    21300018: ninja_9
+    21300020: ninja_10
+    21300022: ninja_11
+    21300024: ninja_12
+    21300026: ninja_13
+    21300028: ninja_14
+    21300030: ninja_15
+    21300032: ninja_16
+    21300034: ninja_17
+    21300036: ninja_18
+    21300038: ninja_19
+    21300040: ninja_20
+    21300042: ninja_21
+    21300044: ninja_22
+    21300046: ninja_23
+    21300048: ninja_24
+    21300050: ninja_25
+    21300052: ninja_26
+    21300054: ninja_27
+    21300056: ninja_28
+    21300058: ninja_29
+    21300060: ninja_30
+    21300062: ninja_31
+    21300064: ninja_32
+    21300066: ninja_33
+    21300068: ninja_34
+    21300070: ninja_35
+    21300072: ninja_36
+    21300074: ninja_37
+    21300076: ninja_38
+    21300078: ninja_39
+    21300080: ninja_40
+    21300082: ninja_41
+    21300084: ninja_42
+    21300086: ninja_43
+    21300088: ninja_44
+    21300090: ninja_45
+    21300092: ninja_46
+    21300094: ninja_47
+    21300096: ninja_48
+    21300098: ninja_49
+    21300100: ninja_50
+    21300102: ninja_51
+    21300104: ninja_52
+    21300106: ninja_53
+    21300108: ninja_54
+    21300110: ninja_55
+    21300112: ninja_56
+    21300114: ninja_57
+    21300116: ninja_58
+    21300118: ninja_59
+    21300120: ninja_60
+    21300122: ninja_61
+    21300124: ninja_62
+    21300126: ninja_63
+    21300128: ninja_64
+    21300130: ninja_65
+    21300132: ninja_66
+    21300134: ninja_67
+    21300136: ninja_68
+    21300138: ninja_69
+    21300140: ninja_70
+    21300142: ninja_71
+    21300144: ninja_72
+    21300146: ninja_73
+    21300148: ninja_74
+    21300150: ninja_75
+    21300152: ninja_76
+    21300154: ninja_77
+    21300156: ninja_78
+    21300158: ninja_79
+    21300160: ninja_80
+    21300162: ninja_81
+    21300164: ninja_82
+    21300166: ninja_83
+    21300168: ninja_84
+    21300170: ninja_85
+    21300172: ninja_86
+    21300174: ninja_87
+    21300176: ninja_88
+    21300178: ninja_89
+    21300180: ninja_90
+    21300182: ninja_91
+    21300184: ninja_92
+    21300186: ninja_93
+    21300188: ninja_94
+    21300190: ninja_95
+    21300192: ninja_96
+    21300194: ninja_97
+    21300196: ninja_98
+    21300198: ninja_99
+    21300200: ninja_100
+    21300202: ninja_101
+    21300204: ninja_102
+    21300206: ninja_103
+    21300208: ninja_104
+    21300210: ninja_105
+    21300212: ninja_106
+    21300214: ninja_107
+    21300216: ninja_108
+    21300218: ninja_109
+    21300220: ninja_110
+    21300222: ninja_111
+    21300224: ninja_112
+    21300226: ninja_113
+    21300228: ninja_114
+    21300230: ninja_115
+    21300232: ninja_116
+    21300234: ninja_117
+    21300236: ninja_118
+    21300238: ninja_119
+    21300240: ninja_121
+    21300242: ninja_122
+    21300244: ninja_123
+    21300246: ninja_124
+    21300248: ninja_125
+    21300250: ninja_126
+    21300252: ninja_127
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 256
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ninja_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 45
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 71
+        width: 45
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 45
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja_3
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 51
+        height: 60
+      alignment: 9
+      pivot: {x: .439999998, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
