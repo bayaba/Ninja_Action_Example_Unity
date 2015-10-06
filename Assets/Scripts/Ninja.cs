@@ -8,24 +8,21 @@ public class Ninja : MonoBehaviour
 
 	void Start()
 	{
-        Physics2D.IgnoreLayerCollision(10, 10);
+        Physics2D.IgnoreLayerCollision(10, 10); // disable shuriken's collision
         anim = GetComponent<Animator>();
 	}
 	
 	void Update()
 	{
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1)) // when you right clicked
         {
-            Invoke("Attack", 0.1f);
-            anim.SetTrigger("attack");
+            Invoke("Attack", 0.1f); // create shuriken after 0.1 second
+            anim.SetTrigger("attack"); // attack animation
         }
-        if (rigidbody2D.velocity.magnitude > 0f)
+
+        if (rigidbody2D.velocity.magnitude <= 0f) // ninja landed on roof
         {
-            anim.SetTrigger("idle");
-        }
-        else
-        {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0)) // when you left click
             {
                 rigidbody2D.AddForce(Vector2.up * 300f);
             }
@@ -35,6 +32,6 @@ public class Ninja : MonoBehaviour
 
     void Attack()
     {
-        Instantiate(Shuriken, transform.position + Vector3.up * 0.2f, Quaternion.identity);
+        Instantiate(Shuriken, transform.position + Vector3.up * 0.2f, Quaternion.identity); // create shuriken
     }
 }

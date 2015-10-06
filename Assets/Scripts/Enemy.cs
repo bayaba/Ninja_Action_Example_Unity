@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+		// enemy's move sequence using LeanTween
         LeanTween.moveY(gameObject, 2.0f, 1.0f).setEase(LeanTweenType.easeOutExpo);
         LeanTween.moveY(gameObject, -2.0f, 1.0f).setEase(LeanTweenType.easeInExpo).setDelay(1.0f);
         LeanTween.moveZ(gameObject, -1.0f, 2.0f);
@@ -21,14 +22,16 @@ public class Enemy : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
-	    if (col.gameObject.layer == 10)
+	    if (col.gameObject.layer == 10) // enemy and shuriken when the collision, shuriken's layer number = 10
         {
             if (!isDead)
             {
+				// create blood effect when enemy is dead
                 GameObject temp = Instantiate(Blood, transform.position, Quaternion.Euler(0f, 0f, 320f)) as GameObject;
                 LeanTween.scale(temp, new Vector3(1.2f, 2.0f, 1.5f), 0.5f);
                 Destroy(temp, 0.5f);
 
+				// cancel of enemy's move commands
                 LeanTween.cancel(gameObject, false);
                 LeanTween.rotateAround(gameObject, Vector3.back, 360f, 0.5f).setLoopClamp();
                 LeanTween.moveY(gameObject, transform.position.y + 1.0f, 0.3f).setEase(LeanTweenType.easeOutExpo);
